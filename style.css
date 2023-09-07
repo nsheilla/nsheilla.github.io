@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ h1 {
 }
 .box {
   background-color: var(--clr);
-  color:rgb(185, 185, 212);
+  color: rgb(185, 185, 212);
   text-shadow: 1px 1px 9px black;
   display: flex;
   align-items: center;
@@ -57,9 +58,11 @@ h1 {
 }
 .yellow {
   --clr: rgb(229, 255, 0);
+  color: aliceblue;
 }
 body {
   font-family: "Lexend", serif;
+  background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,4 +72,18 @@ body {
   overflow-x: hidden;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+hr{
+  visibility: hidden;
+}
+a{
+  font-family:"Black Ops One", serif;
+  color:yellow;
+  text-shadow: 2px 2px 1px black;
+}
+a:hover{
+color:orangered;
+}
+a:visited{
+  color:blue;
 }
