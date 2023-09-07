@@ -8,8 +8,9 @@ h1 {
   color: black;
   text-transform: uppercase;
   margin: 30px;
-  text-shadow: 1px 1px 12px white;
+  text-shadow: 1px 1px 2px white;
   text-align: center;
+  font-family:"Black Ops One";
 }
 .box {
   background-color: var(--clr);
